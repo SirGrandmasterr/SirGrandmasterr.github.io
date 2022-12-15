@@ -1,0 +1,208 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.container {
+    position: relative;
+    background: #aad5f6;
+}
+.slide-1-knot-1 {
+    background: url('../assets/img/knoten1/a/01.jpg');
+}
+.slide-2-knot-1 {
+    background-image: url('../assets/img/knoten1/a/02.jpg');
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.slide-3-knot-1 {
+    background: url('../assets/img/knoten1/a/03.jpg');
+}
+.slide-4-knot-1 {
+    background: url('../assets/img/knoten1/a/04.jpg');
+    
+}
+.slide-5-knot-1 {
+    background: url('../assets/img/knoten1/a/05.jpg');
+}
+.slide-6-knot-1 {
+    background: url('../assets/img/knoten1/a/06.jpg');
+}
+.slide-7-knot-1 {
+    background: url('../assets/img/knoten1/a/07.jpg');
+}
+.slide-8-knot-1 {
+    background: url('../assets/img/knoten1/a/08.jpg');
+}
+.slide-9-knot-1 {
+    background: url('../assets/img/knoten1/a/09.jpg');
+}
+.slide-10-knot-1 {
+    background: url('../assets/img/knoten1/a/10.jpg');
+}
+.slide-11-knot-1 {
+    background: url('../assets/img/knoten1/a/11.jpg');
+}
+.slide-12-knot-1 {
+    background: url('../assets/img/knoten1/a/12.jpg');
+}
+.slide-13-knot-1 {
+    background: url('../assets/img/knoten1/a/13.jpg');
+}
+.slide-14-knot-1 {
+    background: url('../assets/img/knoten1/a/14.jpg');
+}
+.slide-15-knot-1 {
+    background: url('../assets/img/knoten1/a/15.jpg');
+}
+.slide-16-knot-1 {
+    background: url('../assets/img/knoten1/a/16.jpg');
+}
+.slide-17-knot-1 {
+    background: url('../assets/img/knoten1/a/17.jpg');
+}
+.slide-18-knot-1 {
+    background: url('../assets/img/knoten1/a/18.jpg');
+}
+.slide-19-knot-1 {
+    background: url('../assets/img/knoten1/a/19.jpg');
+}
+.slide-20-knot-1 {
+    background: url('../assets/img/knoten1/a/20.jpg');
+}
+.slide-21-knot-1 {
+    background: url('../assets/img/knoten1/a/21.jpg');
+}
+.slide-22-knot-1 {
+    background: url('../assets/img/knoten1/a/22.jpg');
+}
+.slide-23-knot-1 {
+    background: url('../assets/img/knoten1/a/23.jpg');
+}
+.slide-24-knot-1 {
+    background: url('../assets/img/knoten1/a/24.jpg');
+}
+.slide-25-knot-1 {
+    background: url('../assets/img/knoten1/a/25.jpg');
+}
+.slide-26-knot-1 {
+    background: url('../assets/img/knoten1/b/01.jpg');
+}
+.slide-27-knot-1 {
+    background: url('../assets/img/knoten1/b/02.jpg');
+}
+.slide-28-knot-1 {
+    background: url('../assets/img/knoten1/b/03.jpg');
+}
+.slide-29-knot-1 {
+    background: url('../assets/img/knoten1/b/04.jpg');
+}
+.slide-30-knot-1 {
+    background: url('../assets/img/knoten1/b/05.jpg');
+}
+.slide-31-knot-1 {
+    background: url('../assets/img/knoten1/b/06.jpg');
+}
+.slide-32-knot-1 {
+    background: url('../assets/img/knoten1/b/07.jpg');
+}
+.slide-33-knot-1 {
+    background: url('../assets/img/knoten1/b/08.jpg');
+}
+.slide-34-knot-1 {
+    background: url('../assets/img/knoten1/b/09.jpg');
+}
+.slide-35-knot-1 {
+    background: url('../assets/img/knoten1/b/10.jpg');
+}
+.slide-36-knot-1 {
+    background: url('../assets/img/knoten1/b/11.jpg');
+}
+.slide-37-knot-1 {
+    background: url('../assets/img/knoten1/b/12.jpg');
+}
+.slide-38-knot-1 {
+    background: url('../assets/img/knoten1/b/13.jpg');
+}
+.slide-39-knot-1 {
+    background: url('../assets/img/knoten1/b/14.jpg');
+}
+.slide-40-knot-1 {
+    background: url('../assets/img/knoten1/b/15.jpg');
+}
+.slide-41-knot-1 {
+    background: url('../assets/img/knoten1/b/16.jpg');
+}
+.slide-42-knot-1 {
+    background: url('../assets/img/knoten1/b/17.jpg');
+}
+.slide-43-knot-1 {
+    background: url('../assets/img/knoten1/b/18.jpg');
+}
+.slide-44-knot-1 {
+    background: url('../assets/img/knoten1/b/19.jpg');
+}
+
+
+
+
+.slide {
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #fdfdfd;
+    position: relative;
+    overflow-x:auto; 
+}
+.caption {
+    background: rgba(0, 0, 0, 0.03);
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 40px 0px;
+}
+.caption h3 {
+    color: #fff;
+    text-align: center;
+    font-size: 50px;
+    padding: 18px;
+}
+.caption p {
+    max-width: 600px;
+    width: 90%;
+    margin: 0px auto;
+    color: #ccc;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.5em;
+}
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    z-index: 100;
+    background: rgba(0, 0, 0, .1);
+    border-radius: 50%;
+    transform: background 500ms;
+}
+.arrow img {
+    width: 50px;
+}
+.arrow:hover {
+    background: rgba(0, 0, 0, .4);
+}
+.l {
+    left: 0;
+}
+.r {
+    right: 0;
+}

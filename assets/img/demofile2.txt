@@ -1,0 +1,85 @@
+.slide-108-knot-4 {
+    background: url('../assets/img/knoten4/b/01.jpg');
+    }
+    .slide-109-knot-4 {
+    background: url('../assets/img/knoten4/b/02.jpg');
+    }
+    .slide-110-knot-4 {
+    background: url('../assets/img/knoten4/b/03.jpg');
+    }
+    .slide-111-knot-4 {
+    background: url('../assets/img/knoten4/b/04.jpg');
+    }
+    .slide-112-knot-4 {
+    background: url('../assets/img/knoten4/b/05.jpg');
+    }
+    .slide-113-knot-4 {
+    background: url('../assets/img/knoten4/b/06.jpg');
+    }
+    .slide-114-knot-4 {
+    background: url('../assets/img/knoten4/b/07.jpg');
+    }
+    .slide-115-knot-4 {
+    background: url('../assets/img/knoten4/b/08.jpg');
+    }
+    .slide-116-knot-4 {
+    background: url('../assets/img/knoten4/b/09.jpg');
+    }
+    .slide-117-knot-4 {
+    background: url('../assets/img/knoten4/b/10.jpg');
+    }
+    .slide-118-knot-4 {
+    background: url('../assets/img/knoten4/b/11.jpg');
+    }
+    .slide-119-knot-4 {
+    background: url('../assets/img/knoten4/b/12.jpg');
+    }
+    .slide-120-knot-4 {
+    background: url('../assets/img/knoten4/b/13.jpg');
+    }
+    .slide-121-knot-4 {
+    background: url('../assets/img/knoten4/b/14.jpg');
+    }
+    .slide-122-knot-4 {
+    background: url('../assets/img/knoten4/b/15.jpg');
+    }
+    .slide-123-knot-4 {
+    background: url('../assets/img/knoten4/b/16.jpg');
+    }
+    .slide-124-knot-4 {
+    background: url('../assets/img/knoten4/b/17.jpg');
+    }
+    .slide-125-knot-4 {
+    background: url('../assets/img/knoten4/b/18.jpg');
+    }
+    .slide-126-knot-4 {
+    background: url('../assets/img/knoten4/b/19.jpg');
+    }
+    .slide-127-knot-4 {
+    background: url('../assets/img/knoten4/b/20.jpg');
+    }
+    .slide-128-knot-4 {
+    background: url('../assets/img/knoten4/b/21.jpg');
+    }
+    .slide-129-knot-4 {
+    background: url('../assets/img/knoten4/b/22.jpg');
+    }
+    .slide-130-knot-4 {
+    background: url('../assets/img/knoten4/b/23.jpg');
+    }
+    .slide-131-knot-4 {
+    background: url('../assets/img/knoten4/b/24.jpg');
+    }
+    .slide-132-knot-4 {
+    background: url('../assets/img/knoten4/b/25.jpg');
+    }
+    .slide-133-knot-4 {
+    background: url('../assets/img/knoten4/b/26.jpg');
+    }
+    .slide-134-knot-4 {
+    background: url('../assets/img/knoten4/b/27.jpg');
+    }
+    .slide-135-knot-4 {
+    background: url('../assets/img/knoten4/b/28.jpg');
+    }
+    

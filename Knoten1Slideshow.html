@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Slide Show</title>
+    <link rel="stylesheet" href="css/styleknoten1.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="arrow l" onclick="prev()">
+            <img src="assets/img/l.png" alt="l">
+        </div>
+        <div class="slide slide-1-knot-1">
+        </div>
+        <div class="slide slide-2-knot-1">
+        </div>
+        <div class="slide slide-3-knot-1">
+        </div>
+        <div class="slide slide-4-knot-1">
+        </div>
+        <div class="slide slide-5-knot-1">
+        </div>
+        <div class="slide slide-6-knot-1">
+        </div>
+        <div class="slide slide-7-knot-1">
+        </div>
+        <div class="slide slide-8-knot-1">
+        </div>
+        <div class="slide slide-9-knot-1">
+        </div>
+        <div class="slide slide-10-knot-1">
+        </div>
+        <div class="slide slide-11-knot-1">
+        </div>
+        <div class="slide slide-12-knot-1">
+        </div>
+        <div class="slide slide-13-knot-1">
+        </div>
+        <div class="slide slide-14-knot-1">
+        </div>
+        <div class="slide slide-15-knot-1">
+        </div>
+        <div class="slide slide-16-knot-1">
+        </div>
+        <div class="slide slide-17-knot-1">
+        </div>
+        <div class="slide slide-18-knot-1">
+        </div>
+        <div class="slide slide-19-knot-1">
+        </div>
+        <div class="slide slide-20-knot-1">
+        </div>
+        <div class="slide slide-21-knot-1">
+        </div>
+        <div class="slide slide-22-knot-1">
+        </div>
+        <div class="slide slide-23-knot-1">
+        </div>
+        <div class="slide slide-24-knot-1">
+        </div>
+        <div class="slide slide-25-knot-1">
+        </div>
+        <div class="slide slide-26-knot-1">
+        </div>
+        <div class="slide slide-27-knot-1">
+        </div>
+        <div class="slide slide-28-knot-1">
+        </div>
+        <div class="slide slide-29-knot-1">
+        </div>
+        <div class="slide slide-30-knot-1">
+        </div>
+        <div class="slide slide-31-knot-1">
+        </div>
+        <div class="slide slide-32-knot-1">
+        </div>
+        <div class="slide slide-33-knot-1">
+        </div>
+        <div class="slide slide-34-knot-1">
+        </div>
+        <div class="slide slide-35-knot-1">
+        </div>
+        <div class="slide slide-36-knot-1">
+        </div>
+        <div class="slide slide-37-knot-1">
+        </div>
+        <div class="slide slide-38-knot-1">
+        </div>
+        <div class="slide slide-39-knot-1">
+        </div>
+        <div class="slide slide-40-knot-1">
+        </div>
+        <div class="slide slide-41-knot-1">
+        </div>
+        <div class="slide slide-42-knot-1">
+        </div>
+        <div class="slide slide-43-knot-1">
+        </div>
+        <div class="slide slide-44-knot-1">
+        </div>
+        <div class="arrow r" onclick="next()">
+            <img src="assets/img/r.png" alt="r">
+        </div>
+    </div>
+
+    <script>
+        window.addEventListener("keyup", function(e){ if(e.keyCode == 27) history.back(); }, false);
+        window.addEventListener("keydown", function(e){
+             if (e.keyCode == 37) prev();}, false);
+        window.addEventListener("keydown", function(e){
+             if (e.keyCode == 39) next();}, false);
+        let slide = document.querySelectorAll('.slide');
+        var current = 0;
+
+        function cls() {
+            for (let i = 0; i < slide.length; i++) {
+                slide[i].style.display = 'none';
+            }
+        }
+
+        function next() {
+            cls();
+            if (current === slide.length - 1) current = -1;
+            current++;
+
+            slide[current].style.display = 'block';
+            slide[current].style.opacity = 0.4;
+
+            var x = 0.4;
+            var intX = setInterval(function () {
+                x += 0.1;
+                slide[current].style.opacity = x;
+                if (x >= 1) {
+                    clearInterval(intX);
+                    x = 0.4;
+                }
+            }, 100);
+
+        }
+
+        function prev() {
+            cls();
+            if (current === 0) current = slide.length;
+            current--;
+
+            slide[current].style.display = 'block';
+            slide[current].style.opacity = 0.4;
+
+            var x = 0.4;
+            var intX = setInterval(function () {
+                x += 0.1;
+                slide[current].style.opacity = x;
+                if (x >= 1) {
+                    clearInterval(intX);
+                    x = 0.4;
+                }
+            }, 100);
+
+        }
+
+        function start() {
+            cls();
+            slide[current].style.display = 'block';
+        }
+        start();
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,619 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.container {
+    position: relative;
+    background: #aad5f6;
+}
+
+.slide-1-knot-4 {
+    background: url('../assets/img/knoten4/a/01.jpg');
+}
+
+.slide-2-knot-4 {
+    background: url('../assets/img/knoten4/a/02.jpg');
+}
+
+.slide-3-knot-4 {
+    background: url('../assets/img/knoten4/a/03.jpg');
+}
+
+.slide-4-knot-4 {
+    background: url('../assets/img/knoten4/a/04.jpg');
+}
+
+.slide-5-knot-4 {
+    background: url('../assets/img/knoten4/a/05.jpg');
+}
+
+.slide-6-knot-4 {
+    background: url('../assets/img/knoten4/a/06.jpg');
+}
+
+.slide-7-knot-4 {
+    background: url('../assets/img/knoten4/a/07.jpg');
+}
+
+.slide-8-knot-4 {
+    background: url('../assets/img/knoten4/a/08.jpg');
+}
+
+.slide-9-knot-4 {
+    background: url('../assets/img/knoten4/a/09.jpg');
+}
+
+.slide-10-knot-4 {
+    background: url('../assets/img/knoten4/a/10.jpg');
+}
+
+.slide-11-knot-4 {
+    background: url('../assets/img/knoten4/a/11.jpg');
+}
+
+.slide-12-knot-4 {
+    background: url('../assets/img/knoten4/a/12.jpg');
+}
+
+.slide-13-knot-4 {
+    background: url('../assets/img/knoten4/a/13.jpg');
+}
+
+.slide-14-knot-4 {
+    background: url('../assets/img/knoten4/a/14.jpg');
+}
+
+.slide-15-knot-4 {
+    background: url('../assets/img/knoten4/a/15.jpg');
+}
+
+.slide-16-knot-4 {
+    background: url('../assets/img/knoten4/a/16.jpg');
+}
+
+.slide-17-knot-4 {
+    background: url('../assets/img/knoten4/a/17.jpg');
+}
+
+.slide-18-knot-4 {
+    background: url('../assets/img/knoten4/a/18.jpg');
+}
+
+.slide-19-knot-4 {
+    background: url('../assets/img/knoten4/a/19.jpg');
+}
+
+.slide-20-knot-4 {
+    background: url('../assets/img/knoten4/a/20.jpg');
+}
+
+.slide-21-knot-4 {
+    background: url('../assets/img/knoten4/a/21.jpg');
+}
+
+.slide-22-knot-4 {
+    background: url('../assets/img/knoten4/a/22.jpg');
+}
+
+.slide-23-knot-4 {
+    background: url('../assets/img/knoten4/a/23.jpg');
+}
+
+.slide-24-knot-4 {
+    background: url('../assets/img/knoten4/a/24.jpg');
+}
+
+.slide-25-knot-4 {
+    background: url('../assets/img/knoten4/a/25.jpg');
+}
+
+.slide-26-knot-4 {
+    background: url('../assets/img/knoten4/a/26.jpg');
+}
+
+.slide-27-knot-4 {
+    background: url('../assets/img/knoten4/a/27.jpg');
+}
+
+.slide-28-knot-4 {
+    background: url('../assets/img/knoten4/a/28.jpg');
+}
+
+.slide-29-knot-4 {
+    background: url('../assets/img/knoten4/a/29.jpg');
+}
+
+.slide-30-knot-4 {
+    background: url('../assets/img/knoten4/a/30.jpg');
+}
+
+.slide-31-knot-4 {
+    background: url('../assets/img/knoten4/a/31.jpg');
+}
+
+.slide-32-knot-4 {
+    background: url('../assets/img/knoten4/a/32.jpg');
+}
+
+.slide-33-knot-4 {
+    background: url('../assets/img/knoten4/a/33.jpg');
+}
+
+.slide-34-knot-4 {
+    background: url('../assets/img/knoten4/a/34.jpg');
+}
+
+.slide-35-knot-4 {
+    background: url('../assets/img/knoten4/a/35.jpg');
+}
+
+.slide-36-knot-4 {
+    background: url('../assets/img/knoten4/a/36.jpg');
+}
+
+.slide-37-knot-4 {
+    background: url('../assets/img/knoten4/a/37.jpg');
+}
+
+.slide-38-knot-4 {
+    background: url('../assets/img/knoten4/a/38.jpg');
+}
+
+.slide-39-knot-4 {
+    background: url('../assets/img/knoten4/a/39.jpg');
+}
+
+.slide-40-knot-4 {
+    background: url('../assets/img/knoten4/a/40.jpg');
+}
+
+.slide-41-knot-4 {
+    background: url('../assets/img/knoten4/a/41.jpg');
+}
+
+.slide-42-knot-4 {
+    background: url('../assets/img/knoten4/a/42.jpg');
+}
+
+.slide-43-knot-4 {
+    background: url('../assets/img/knoten4/a/43.jpg');
+}
+
+.slide-44-knot-4 {
+    background: url('../assets/img/knoten4/a/44.jpg');
+}
+
+.slide-45-knot-4 {
+    background: url('../assets/img/knoten4/a/45.jpg');
+}
+
+.slide-46-knot-4 {
+    background: url('../assets/img/knoten4/a/46.jpg');
+}
+
+.slide-47-knot-4 {
+    background: url('../assets/img/knoten4/a/47.jpg');
+}
+
+.slide-48-knot-4 {
+    background: url('../assets/img/knoten4/a/48.jpg');
+}
+
+.slide-49-knot-4 {
+    background: url('../assets/img/knoten4/a/49.jpg');
+}
+
+.slide-50-knot-4 {
+    background: url('../assets/img/knoten4/a/50.jpg');
+}
+
+.slide-51-knot-4 {
+    background: url('../assets/img/knoten4/a/51.jpg');
+}
+
+.slide-52-knot-4 {
+    background: url('../assets/img/knoten4/a/52.jpg');
+}
+
+.slide-53-knot-4 {
+    background: url('../assets/img/knoten4/a/53.jpg');
+}
+
+.slide-54-knot-4 {
+    background: url('../assets/img/knoten4/a/54.jpg');
+}
+
+.slide-55-knot-4 {
+    background: url('../assets/img/knoten4/a/55.jpg');
+}
+
+.slide-56-knot-4 {
+    background: url('../assets/img/knoten4/a/56.jpg');
+}
+
+.slide-57-knot-4 {
+    background: url('../assets/img/knoten4/a/57.jpg');
+}
+
+.slide-58-knot-4 {
+    background: url('../assets/img/knoten4/a/58.jpg');
+}
+
+.slide-59-knot-4 {
+    background: url('../assets/img/knoten4/a/59.jpg');
+}
+
+.slide-60-knot-4 {
+    background: url('../assets/img/knoten4/a/60.jpg');
+}
+
+.slide-61-knot-4 {
+    background: url('../assets/img/knoten4/a/61.jpg');
+}
+
+.slide-62-knot-4 {
+    background: url('../assets/img/knoten4/a/62.jpg');
+}
+
+.slide-63-knot-4 {
+    background: url('../assets/img/knoten4/a/63.jpg');
+}
+
+.slide-64-knot-4 {
+    background: url('../assets/img/knoten4/a/64.jpg');
+}
+
+.slide-65-knot-4 {
+    background: url('../assets/img/knoten4/a/65.jpg');
+}
+
+.slide-66-knot-4 {
+    background: url('../assets/img/knoten4/a/66.jpg');
+}
+
+.slide-67-knot-4 {
+    background: url('../assets/img/knoten4/a/67.jpg');
+}
+
+.slide-68-knot-4 {
+    background: url('../assets/img/knoten4/a/68.jpg');
+}
+
+.slide-69-knot-4 {
+    background: url('../assets/img/knoten4/a/69.jpg');
+}
+
+.slide-70-knot-4 {
+    background: url('../assets/img/knoten4/a/70.jpg');
+}
+
+.slide-71-knot-4 {
+    background: url('../assets/img/knoten4/a/71.jpg');
+}
+
+.slide-72-knot-4 {
+    background: url('../assets/img/knoten4/a/72.jpg');
+}
+
+.slide-73-knot-4 {
+    background: url('../assets/img/knoten4/a/73.jpg');
+}
+
+.slide-74-knot-4 {
+    background: url('../assets/img/knoten4/a/74.jpg');
+}
+
+.slide-75-knot-4 {
+    background: url('../assets/img/knoten4/a/75.jpg');
+}
+
+.slide-76-knot-4 {
+    background: url('../assets/img/knoten4/a/76.jpg');
+}
+
+.slide-77-knot-4 {
+    background: url('../assets/img/knoten4/a/77.jpg');
+}
+
+.slide-78-knot-4 {
+    background: url('../assets/img/knoten4/a/78.jpg');
+}
+
+.slide-79-knot-4 {
+    background: url('../assets/img/knoten4/a/79.jpg');
+}
+
+.slide-80-knot-4 {
+    background: url('../assets/img/knoten4/a/80.jpg');
+}
+
+.slide-81-knot-4 {
+    background: url('../assets/img/knoten4/a/81.jpg');
+}
+
+.slide-82-knot-4 {
+    background: url('../assets/img/knoten4/a/82.jpg');
+}
+
+.slide-83-knot-4 {
+    background: url('../assets/img/knoten4/a/83.jpg');
+}
+
+.slide-84-knot-4 {
+    background: url('../assets/img/knoten4/a/84.jpg');
+}
+
+.slide-85-knot-4 {
+    background: url('../assets/img/knoten4/a/85.jpg');
+}
+
+.slide-86-knot-4 {
+    background: url('../assets/img/knoten4/a/86.jpg');
+}
+
+.slide-87-knot-4 {
+    background: url('../assets/img/knoten4/a/87.jpg');
+}
+
+.slide-88-knot-4 {
+    background: url('../assets/img/knoten4/a/88.jpg');
+}
+
+.slide-89-knot-4 {
+    background: url('../assets/img/knoten4/a/89.jpg');
+}
+
+.slide-90-knot-4 {
+    background: url('../assets/img/knoten4/a/90.jpg');
+}
+
+.slide-91-knot-4 {
+    background: url('../assets/img/knoten4/a/91.jpg');
+}
+
+.slide-92-knot-4 {
+    background: url('../assets/img/knoten4/a/92.jpg');
+}
+
+.slide-93-knot-4 {
+    background: url('../assets/img/knoten4/a/93.jpg');
+}
+
+.slide-94-knot-4 {
+    background: url('../assets/img/knoten4/a/94.jpg');
+}
+
+.slide-95-knot-4 {
+    background: url('../assets/img/knoten4/a/95.jpg');
+}
+
+.slide-96-knot-4 {
+    background: url('../assets/img/knoten4/a/96.jpg');
+}
+
+.slide-97-knot-4 {
+    background: url('../assets/img/knoten4/a/97.jpg');
+}
+
+.slide-98-knot-4 {
+    background: url('../assets/img/knoten4/a/98.jpg');
+}
+
+.slide-99-knot-4 {
+    background: url('../assets/img/knoten4/a/99.jpg');
+}
+
+.slide-100-knot-4 {
+    background: url('../assets/img/knoten4/a/100.jpg');
+}
+
+.slide-101-knot-4 {
+    background: url('../assets/img/knoten4/a/101.jpg');
+}
+
+.slide-102-knot-4 {
+    background: url('../assets/img/knoten4/a/102.jpg');
+}
+
+.slide-103-knot-4 {
+    background: url('../assets/img/knoten4/a/103.jpg');
+}
+
+.slide-104-knot-4 {
+    background: url('../assets/img/knoten4/a/104.jpg');
+}
+
+.slide-105-knot-4 {
+    background: url('../assets/img/knoten4/a/105.jpg');
+}
+
+.slide-106-knot-4 {
+    background: url('../assets/img/knoten4/a/106.jpg');
+}
+
+.slide-107-knot-4 {
+    background: url('../assets/img/knoten4/a/107.jpg');
+}
+
+.slide-108-knot-4 {
+    background: url('../assets/img/knoten4/b/01.jpg');
+}
+
+.slide-109-knot-4 {
+    background: url('../assets/img/knoten4/b/02.jpg');
+}
+
+.slide-110-knot-4 {
+    background: url('../assets/img/knoten4/b/03.jpg');
+}
+
+.slide-111-knot-4 {
+    background: url('../assets/img/knoten4/b/04.jpg');
+}
+
+.slide-112-knot-4 {
+    background: url('../assets/img/knoten4/b/05.jpg');
+}
+
+.slide-113-knot-4 {
+    background: url('../assets/img/knoten4/b/06.jpg');
+}
+
+.slide-114-knot-4 {
+    background: url('../assets/img/knoten4/b/07.jpg');
+}
+
+.slide-115-knot-4 {
+    background: url('../assets/img/knoten4/b/08.jpg');
+}
+
+.slide-116-knot-4 {
+    background: url('../assets/img/knoten4/b/09.jpg');
+}
+
+.slide-117-knot-4 {
+    background: url('../assets/img/knoten4/b/10.jpg');
+}
+
+.slide-118-knot-4 {
+    background: url('../assets/img/knoten4/b/11.jpg');
+}
+
+.slide-119-knot-4 {
+    background: url('../assets/img/knoten4/b/12.jpg');
+}
+
+.slide-120-knot-4 {
+    background: url('../assets/img/knoten4/b/13.jpg');
+}
+
+.slide-121-knot-4 {
+    background: url('../assets/img/knoten4/b/14.jpg');
+}
+
+.slide-122-knot-4 {
+    background: url('../assets/img/knoten4/b/15.jpg');
+}
+
+.slide-123-knot-4 {
+    background: url('../assets/img/knoten4/b/16.jpg');
+}
+
+.slide-124-knot-4 {
+    background: url('../assets/img/knoten4/b/17.jpg');
+}
+
+.slide-125-knot-4 {
+    background: url('../assets/img/knoten4/b/18.jpg');
+}
+
+.slide-126-knot-4 {
+    background: url('../assets/img/knoten4/b/19.jpg');
+}
+
+.slide-127-knot-4 {
+    background: url('../assets/img/knoten4/b/20.jpg');
+}
+
+.slide-128-knot-4 {
+    background: url('../assets/img/knoten4/b/21.jpg');
+}
+
+.slide-129-knot-4 {
+    background: url('../assets/img/knoten4/b/22.jpg');
+}
+
+.slide-130-knot-4 {
+    background: url('../assets/img/knoten4/b/23.jpg');
+}
+
+.slide-131-knot-4 {
+    background: url('../assets/img/knoten4/b/24.jpg');
+}
+
+.slide-132-knot-4 {
+    background: url('../assets/img/knoten4/b/25.jpg');
+}
+
+.slide-133-knot-4 {
+    background: url('../assets/img/knoten4/b/26.jpg');
+}
+
+.slide-134-knot-4 {
+    background: url('../assets/img/knoten4/b/27.jpg');
+}
+
+.slide-135-knot-4 {
+    background: url('../assets/img/knoten4/b/28.jpg');
+}
+
+
+
+
+
+
+.slide {
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #fdfdfd;
+    position: relative;
+    overflow-x: auto;
+}
+
+.caption {
+    background: rgba(0, 0, 0, 0.03);
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 40px 0px;
+}
+
+.caption h3 {
+    color: #fff;
+    text-align: center;
+    font-size: 50px;
+    padding: 18px;
+}
+
+.caption p {
+    max-width: 600px;
+    width: 90%;
+    margin: 0px auto;
+    color: #ccc;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.5em;
+}
+
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    z-index: 100;
+    background: rgba(0, 0, 0, .1);
+    border-radius: 50%;
+    transform: background 500ms;
+}
+
+.arrow img {
+    width: 50px;
+}
+
+.arrow:hover {
+    background: rgba(0, 0, 0, .4);
+}
+
+.l {
+    left: 0;
+}
+
+.r {
+    right: 0;
+}
