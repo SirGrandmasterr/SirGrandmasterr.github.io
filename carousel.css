@@ -10,7 +10,10 @@ body {
 
 
 
-
+.centered {
+  
+  margin: auto;
+}
 /* Random Shit */
 .fillerbottom {
   height: 30vh;
