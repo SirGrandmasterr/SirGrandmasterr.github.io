@@ -244,17 +244,7 @@
             current++;
 
             slide[current].style.display = 'block';
-            slide[current].style.opacity = 0.4;
-
-            var x = 0.4;
-            var intX = setInterval(function () {
-                x += 0.1;
-                slide[current].style.opacity = x;
-                if (x >= 1) {
-                    clearInterval(intX);
-                    x = 0.4;
-                }
-            }, 100);
+            slide[current].style.opacity = 1;
 
         }
 
@@ -264,17 +254,7 @@
             current--;
 
             slide[current].style.display = 'block';
-            slide[current].style.opacity = 0.4;
-
-            var x = 0.4;
-            var intX = setInterval(function () {
-                x += 0.1;
-                slide[current].style.opacity = x;
-                if (x >= 1) {
-                    clearInterval(intX);
-                    x = 0.4;
-                }
-            }, 100);
+            slide[current].style.opacity = 1;
 
         }
 
