@@ -560,7 +560,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    background-color: #fdfdfd;
+    background-color: rgb(60,64,67);
     position: relative;
     overflow-x: auto;
 }
