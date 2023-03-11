@@ -7,79 +7,53 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Slide Show</title>
     <link rel="stylesheet" href="css/intro.css">
+     <!-- Bootstrap core CSS -->
+  <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
-<body>
-
-    <div class="arrow l" onclick="prev()">
-        <img src="assets/img/l.png" alt="l">
-    </div>
-    <div class="slide intro">
-    </div>
-    <div class="arrow r" onclick="next()">
-        <img src="assets/img/r.png" alt="r">
-    </div>
-
+<body style="background-color: rgb(60,64,67);">
+    <div class="container" style="background-color: rgb(60,64,67);" >
+        <div class="row" style="background-color: rgb(60,64,67);">
+            <div class="col-3"></div>
+          <div class="col-6"  style="background-color: rgb(255, 255, 255);">
+            <h3 class="text-center">Einführung</h3>
+            <p>
+                In den 70er Jahren des vergangenen Jh.s habe ich in einem Antiquariat eine dicke, alte Mappe erstanden. Darin enthalten sind Lichtdrucke sämtlicher Holzschnitte von Albrecht Dürer im Originalformat. Unter den wunderbaren Blättern befinden sich vier abstrakte Musterdrucke mit der rätselhaften Bezeichnung „Knoten“.
+                Knoten - ein Konstrukt aus Fäden? Weder Anfänge noch Enden kann ich entdecken.
+                Es ist schwierig, mit dem Auge den einzelnen Linien zu folgen.
+                Also habe ich etwa 1975 begonnen, auf durchscheinendem Papier Linien der Knoten nachzuzeichnen.
+                Das Ergebnis fasziniert mich bis heute. Alle Fäden sind in sich geschlossen, gleichsam unendlich. </p>
+                
+               <p> Der erste und einfachste der vier Knoten besteht aus sieben Fäden. Beim zweiten Knoten sind es 19, im dritten Knoten 23 Fäden. In diesem Gewebe gibt es wunderschöne Fadengestalten, neben kleinsten sehr große, wahre Wunderwerke.
+                Doch der am feinsten gearbeitete vierte Knoten ist wahrhaftig sensationell. Er besteht aus 38 Fäden. </p>
+                <p>Davon sind die ersten 24 Gestalten in der Form identisch. Aber ihre Anordnung ist sehr kunstvoll: 6-mal radial, dazu 6-mal gespiegelt; weiterhin 6-mal im Kreis, auch diese 6-mal gespiegelt. Die einzelnen Fäden dieses Knotens sind nicht sehr schön. Dafür ist die Struktur unglaublich komplex.
+                In allen vier Knoten gibt es Fäden, welche, gedreht und übereinandergelegt, neue Gestalten ergeben. Sämtliche Fäden der vier Knoten sind sorgfältig verwoben, also wechselnd über- und unterführend gezeichnet. 
+                Die wundersamen Strukturen und auch diese immens komplizierte Ausführung habe ich so ausführlich nirgends besprochen und geehrt gefunden. 
+                Werde ich Antworten von anderen – Suchenden oder Wissenden - finden auf die vielen Fragen, welche sich beim Betrachten der Analyse ergeben?
+                Ich gebe die Hoffnung nicht auf. </p>
+                
+                <p>Kannte Dürer die „Fäden“ überhaupt? Sind die Strukturen bewusst aufgebaut? Auch wenn man von den einzelnen Fäden weiß, kann man sie im vollständigen Knoten kaum verfolgen.
+                War Dürer ein Genie, vergleichbar dem Mozarts, der feinststrukturierte Werke in der Vorstellung entwarf und dann einfach ohne Korrekturen niederschrieb?
+                Für diese vage Vermutung spricht ein Beispiel: Ich las einst, von Dürers großformatigem Kupferstich „Herkules am Scheideweg“, den er selbst in die Platte stach, sei ein zu großen Teilen bereits vollständig ausgearbeiteter Probedruck mit lediglich einigen unausgeführten Figuren erhalten. Es wäre darauf leicht zu sehen, dass er in der Endfassung an den fertigen, räumlich schwarz-weiß „gemalten“ Partien so gut wie nichts mehr verändert hat. War er sich also des Ganzen in Idee und Ausführung sehr sicher?</p>
+                
+                <p>Meine Bewunderung für diese im Verhältnis zu Dürers Gesamtwerk so kleinen Kunstwerke ist über die Jahre lebendig geblieben. Ich habe diese zeichnerischen Struktur-Analysen auch mit Strukturen in der Musik verglichen.
+                Gemeinsamkeiten, aber auch Unvereinbarkeiten haben sich ergeben, beides ist für mich außerordentlich interessant.
+                Früher habe ich die auf Folien nachgezeichneten Analysen mit Hilfe des Overhead-Projektors gezeigt.
+                Das „Spielen“ mit den Fäden in unterschiedlichen Zusammenstellungen und ein gemeinsames Anschauen ist nach dem Jahr 2000 durch den Computer möglich geworden. 
+                Hier in der Website gibt jedes Knoten-Icon unterhalb des Einführungs-Textes nach dem Anklicken das Innenleben des jeweiligen Knotens frei.  
+                Ich wünsche dem geduldigen Betrachter, dass er von der Beschäftigung mit den Knoten dasselbe erhält wie ich: hohen Genuss des Schauens - und ebenfalls große Nachdenklichkeit.</p>
+                
+                <p>Inzwischen weiß ich, dass es sechs Knoten von Dürer gibt. Zwei davon sind deutlich einfacher aufgebaut. Aus diesem Grund habe ich sie auch nicht in meine Analysen aufgenommen.
+                Möglicherweise sind sie deshalb auch nicht in der besagten Mappe enthalten.</p>
+                
+                <p>Michael Vogler</p>
+            </div>
+          <div class="col-3"></div>
+          
+        </div>
+      </div>
     <script>
         window.addEventListener("keyup", function(e){ if(e.keyCode == 27) history.back(); }, false);
-        window.addEventListener("keydown", function(e){
-             if (e.keyCode == 37) prev();}, false);
-        window.addEventListener("keydown", function(e){
-             if (e.keyCode == 39) next();}, false);
-        let slide = document.querySelectorAll('.slide');
-        var current = 0;
-
-        function cls() {
-            for (let i = 0; i < slide.length; i++) {
-                slide[i].style.display = 'none';
-            }
-        }
-
-        function next() {
-            cls();
-            if (current === slide.length - 1) current = -1;
-            current++;
-
-            slide[current].style.display = 'block';
-            slide[current].style.opacity = 0.4;
-
-            var x = 0.4;
-            var intX = setInterval(function () {
-                x += 0.1;
-                slide[current].style.opacity = x;
-                if (x >= 1) {
-                    clearInterval(intX);
-                    x = 0.4;
-                }
-            }, 100);
-
-        }
-
-        function prev() {
-            cls();
-            if (current === 0) current = slide.length;
-            current--;
-
-            slide[current].style.display = 'block';
-            slide[current].style.opacity = 0.4;
-
-            var x = 0.4;
-            var intX = setInterval(function () {
-                x += 0.1;
-                slide[current].style.opacity = x;
-                if (x >= 1) {
-                    clearInterval(intX);
-                    x = 0.4;
-                }
-            }, 100);
-
-        }
-
-        function start() {
-            cls();
-            slide[current].style.display = 'block';
-        }
-        start();
     </script>
 </body>
 
